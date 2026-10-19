@@ -1,7 +1,7 @@
 import React from 'react';
 import './StoryReel.css';
 import Story from './Story';
-import arjun from './images/arjun.PNG';
+
 import drone from './images/drone.jpg';
 import earth from './images/earth.jpg';
 import forest from './images/forest.jpg';
@@ -16,8 +16,8 @@ function StoryReel() {
     return (<div className='storyReel'>
         <Story
             image={drone}
-            profileSrc={arjun}
-            title='Arjun Myanger'
+            profileSrc={sith}
+            title='Sith'
         />
         <Story
             image={earth}
